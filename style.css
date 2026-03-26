@@ -1,0 +1,97 @@
+body{
+    font-family: Manrope, sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: Libre Baskerville, serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.1rem;
+}
+header{
+    background-color: rgb(21,18,53);
+    color: white;
+    text-align: center;
+    padding: 4vw;
+}
+nav,footer{
+    background-color: rgb(152,18,72);
+    color: white;
+    text-align: center;
+    padding: 2vw;
+}
+span.emphasized{
+    font-size: larger;
+    font-weight: bold;
+}
+div.intro{
+    text-align: center;
+    background-color: rgb(255,238,238);
+    padding: 5vw;
+    margin: 1vw 0;
+}
+h2{
+    text-align: center;
+    background-color: rgb(21,18,53);
+    color: white;
+}
+div.card{
+    border: solid;
+    padding: 2vw;
+}
+div.card :hover{
+    background-color: rgb(215,138,133);
+}
+img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+div.container{
+    display: flex;
+    gap: 20px;
+}
+div.box{
+    flex: 1;
+    border: solid;
+    padding: 20px;
+    background-color: rgb(255,238,238);
+}
+div.box :hover{
+    background-color: rgb(215,138,133);
+}
+div.box img{
+    border: solid rgb(62,62,63) 2px;
+}
+div.frame{
+    background-color: rgb(62,62,63);
+    color: white;
+    flex: 1;
+    border: solid;
+    padding:20px    
+}
+div.frame:hover{
+    background-color: rgb(215,138,133);
+}
+div.frame img{
+    border: solid rgb(255,238,238) 2px;
+}
+a{
+    color: rgb(21,18,53);
+}
+a:hover{
+    color: rgb(152,18,72);
+}
+a.bottom-link{
+    color: white;
+}
